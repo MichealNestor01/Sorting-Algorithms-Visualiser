@@ -205,8 +205,8 @@ class ScreenObject {
       let secondOrder = parseInt(list[1].div.style.order);
       if (list[0].index > list[1].index) {
         list[1].div.classList.add("pivot");
+        this.pivotCount += 1;
         pivotsSpan.innerHTML = this.pivotCount;
-        pivot.pivot = 1;
         list[1].div.style.order = firstOrder;
         await this.pause(1);
         list[0].div.style.order = secondOrder;
