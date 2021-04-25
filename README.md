@@ -5,3 +5,6 @@ Main things learned from this project:
 - Asynchronous javascript code
 - Recursion in javascript
 - More familiarity with how arrays are managed in javascript
+
+UPDATES:
+25/04/2021 -> I have changed the quick sort to darken cells not being focused on them rather than greying them out
